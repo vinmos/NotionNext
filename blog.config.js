@@ -169,7 +169,6 @@ const BLOG = {
   PRISM_JS_PATH: 'https://npm.elemecdn.com/prismjs@1.29.0/components/',
   PRISM_JS_AUTO_LOADER:
     'https://npm.elemecdn.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js',
-   UUID_REDIRECT: true // 或 false，根据您的需求
   // 代码主题 @see https://github.com/PrismJS/prism-themes
   PRISM_THEME_PREFIX_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH ||
@@ -189,7 +188,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_CODE_COLLAPSE_EXPAND_DEFAULT || true, // 折叠代码默认是展开状态
 
   // END********代码相关********
-
+  UUID_REDIRECT: true, // 或 false,根据您的需求
   // Mermaid 图表CDN
   MERMAID_CDN:
     process.env.NEXT_PUBLIC_MERMAID_CDN ||
