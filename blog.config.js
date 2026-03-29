@@ -169,7 +169,7 @@ const BLOG = {
   PRISM_JS_PATH: 'https://npm.elemecdn.com/prismjs@1.29.0/components/',
   PRISM_JS_AUTO_LOADER:
     'https://npm.elemecdn.com/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js',
-
+   UUID_REDIRECT: true // 或 false，根据您的需求
   // 代码主题 @see https://github.com/PrismJS/prism-themes
   PRISM_THEME_PREFIX_PATH:
     process.env.NEXT_PUBLIC_PRISM_THEME_PREFIX_PATH ||
