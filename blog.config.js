@@ -188,7 +188,7 @@ const BLOG = {
     process.env.NEXT_PUBLIC_CODE_COLLAPSE_EXPAND_DEFAULT || true, // 折叠代码默认是展开状态
 
   // END********代码相关********
-  UUID_REDIRECT: true, // 或 false,根据您的需求
+
   // Mermaid 图表CDN
   MERMAID_CDN:
     process.env.NEXT_PUBLIC_MERMAID_CDN ||
